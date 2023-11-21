@@ -111,7 +111,7 @@ nav#header-navigation{
 }
 
 #portfolio-section{
-    height: 502px;
+    height: 470px;
     text-align: center;
     background-color: #ffffff;
 }
@@ -155,6 +155,29 @@ nav#header-navigation{
 }
 
 #quote-section{
+    display: block;
+    padding-top: 133px;
+    padding-left: 355px;
+    padding-right: 310px;
+    height: 312.5px;
+    background-color: #E5E7EB;
+}
+
+#quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#quote-author{
+    display: flex;
+    padding-right: 40px;
+    font-size: 24px;
+    font-weight: 800;
+    justify-content: flex-end;
+    text-shadow: 0.8px 0px #1f2937;
+}
+#sign-up-section{
     height: 502px;
-    background-color: #c8ccd0;
+    background-color: #ffffff;
 }
