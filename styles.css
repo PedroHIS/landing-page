@@ -7,10 +7,12 @@ body{
     font-family: 'Roboto';
     letter-spacing: 0.2px;
 }
-
-#main-section{
+.segment{
+    margin: 0;
     padding-left: 217px;
     padding-right: 217px;
+}
+#main-section{
     background-color: #1f2937;
     color: #F9FAF8;
     height: 557px;
@@ -58,7 +60,7 @@ nav#header-navigation{
 
 #main-content-text{
     display: block;
-    height: 400px;
+    height: 200px;
     width: 470px;
 }
 
@@ -106,4 +108,53 @@ nav#header-navigation{
     background-color: #6d747d;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+#portfolio-section{
+    height: 502px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#portfolio-section h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    letter-spacing: 1px;
+    text-shadow: 1.7px 0px #1f2937;
+}
+
+#portfolio-guides{
+    display: flex;
+    padding-left: 106px;
+    padding-right: 103px;
+    justify-content: space-between;
+}
+
+.portfolio-guide{
+    display: block;
+    height: 250px;
+    width: 178px;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.guide-image{
+    margin-bottom: 8px;
+    height: 167px;
+    width: 167px;
+    background-color: #ffffff;
+    border: 5px solid;
+    border-color: #3882F6;
+    border-radius: 17px;
+}
+
+#quote-section{
+    height: 502px;
+    background-color: #c8ccd0;
 }
