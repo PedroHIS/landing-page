@@ -177,7 +177,46 @@ nav#header-navigation{
     justify-content: flex-end;
     text-shadow: 0.8px 0px #1f2937;
 }
+
 #sign-up-section{
-    height: 502px;
+    display: flex;
+    height: 364px;
     background-color: #ffffff;
+    align-items: center;
+    font-size: 18px;
+}
+
+#sign-up-container{
+    display: flex;
+    height: 155px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+#sign-up-text{
+    margin-left: 125px;
+    padding: 0;
+}
+
+#sign-up-text h3{
+    margin-top: 0;
+    margin-left: 1px;
+    margin-bottom: 2px;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #F9FAF8;
+}
+
+#sign-up-text p{
+    margin: 0;
+    color: #E5E7EB;
+}
+
+#white-border{
+    margin-right: 125px;
+    border: 3px solid #E5E7EB;
 }
